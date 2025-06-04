@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bus Ticket Booking</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Routes</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Find Your Perfect Bus Journey</h2>
+            <form id="booking-form">
+                <div class="form-group">
+                    <lebal for="Name">Passenger Name:</lebal>
+                    <input type="text" id="Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone number">Phone number:</label>
+                    <input type="number" id="phome number"required>
+                </div>
+                <div class="form-group">
+                    <label for="departure">Departure City:</label>
+                    <input type="text" id="departure" placeholder="e.g., Nairobi" required>
+                </div>
+                <div class="form-group">
+                    <label for="destination">Destination City:</label>
+                    <input type="text" id="destination" placeholder="e.g., Mombasa" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Travel Date:</label>
+                    <input type="date" id="date" required>
+                </div>
+            </form>
+        </section>
+
+        <section class="bus-routes">
+            <h2>Popular Routes</h2>
+            <div class="route-cards">
+                <div class="card">
+                    <h3>Nairobi to Mombasa</h3>
+                    <p>Price: KES 1500</p>
+                    <p>Departure: 08:00 AM</p>
+                    <button class="book-now">Book Now</button>
+                </div>
+                <div class="card">
+                    <h3>Kisumu to Nairobi</h3>
+                    <p>Price: KES 1200</p>
+                    <p>Departure: 09:30 AM</p>
+                    <button class="book-now">Book Now</button>
+                </div>
+                <div class="card">
+                    <h3>Eldoret to Kampala</h3>
+                    <p>Price: KES 2500</p>
+                    <p>Departure: 10:00 AM</p>
+                    <button class="book-now">Book Now</button>
+                </div>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bus Ticket Booking. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
